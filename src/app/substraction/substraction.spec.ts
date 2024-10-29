@@ -7,10 +7,8 @@ describe('substraction unit tests', () => {
 
         // Arrange
         let result = 0;
-        
         // Act
         result = substraction(0, 2);
-
         // Assert
         expect(result).toBe(-2);
     })
